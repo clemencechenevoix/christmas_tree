@@ -15,16 +15,11 @@ The main function will calculate the length of the last line of the last level w
 and it will get the height given by the user in the call of the file.
 
 ## Installation
-First you will need to have the file named my_christmas_tree.c and the Makefile
+First you will need to have the file named my_christmas_tree.c
 
 Next, to compile the program you will need to enter in the terminal :
 ```
-$> make
-```
-
-If you wanna clean the compiled files enter in the terminal :
-```
-$> make fclean
+$> gcc -o my_christmas_tree my_christmas_tree.c
 ```
 
 ## Usage
